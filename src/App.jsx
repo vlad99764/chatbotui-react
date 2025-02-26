@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import ChatBoxModal from './components/ChatBoxModal';
 import Questions from './components/Questions';
 
-
+// Main App component
 function App() {
   return (
     <div>
