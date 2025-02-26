@@ -16,8 +16,7 @@ function App() {
           </Col>
           <Col className='column2' lg={6} md={12}>
             <Routes>
-              <Route path="/" element={<ChatBoxModal />
-              } />
+              <Route path="/" element={<ChatBoxModal />} />
             </Routes>
           </Col>
         </Row>
