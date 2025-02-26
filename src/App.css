@@ -22,6 +22,19 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   word-wrap: normal;
+  width: 400px;
+  height: 500px;
+  overflow-y: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: #333;
+  background-image: linear-gradient(45deg, #333 25%, transparent 25%, transparent 75%, #333 75%, #333), linear-gradient(45deg, #333 25%, transparent 25%, transparent 75%, #333 75%, #333);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
 }
 
 .column1 div {
