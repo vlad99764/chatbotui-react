@@ -6,6 +6,8 @@
 body {
   background-image: url("./assets/botAi.png");
   padding: 20px;
+  font-family: Arial, sans-serif;
+  background-size: 100%;
 }
 
 .column1 {
