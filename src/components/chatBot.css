@@ -1,0 +1,152 @@
+.circleBtn {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 5px;
+    border: none;
+}
+
+.input {
+    width: 100%;
+    height: 55px;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.msgalignend {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.msgalignstart {
+    display: flex;
+    justify-content: flex-start;
+    min-height: 5px;
+}
+
+.botmsg {
+    background-color: rgb(205, 173, 241);
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    min-height: 45px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+    border-radius: 25px;
+    max-width: 20rem;
+}
+
+.usermsg {
+    background-color: rgb(235, 220, 252);
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    min-height: 45px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+    max-width: 20rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(140, 27, 185);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b909e6;
+}
+
+.botIcon {
+    font-size: 45px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.userIcon {
+    font-size: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.sendIcon {
+    font-size: 25px;
+}
+
+.cardBox {
+    max-width: 38rem;
+    max-height: 38rem;
+    border: 1px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.header {
+    height: 5.1rem;
+    border-bottom: 1px solid black;
+    background-color: #8012c4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 5px;
+}
+
+.cardContent {
+    padding-top: 10px;
+    height: 28rem;
+    overflow-y: 'a';
+    overflow-x: 'hidden';
+}
+
+.cardFooter {
+    border-top: 1px solid black;
+    background-color: #8012c4;
+    padding-left: 15px;
+}
+
+.mainHeading {
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 450px) {
+    .cardFooter {
+        padding: 10px;
+    }
+
+    .circleBtn {
+        margin-top: 5px;
+        margin-left: -10px;
+    }
+
+    .input {
+        width: 90%;
+    }
+}
