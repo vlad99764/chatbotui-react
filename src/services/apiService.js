@@ -23,7 +23,7 @@ const invokeChatBotService = async function (senderId, msg, setChat, setBotTypin
     .then(response => response.json())
     .then((response) => {
       if (response) {
-        // console.log("-response ------------------",response);
+        // console.log("-response --------------",response);
         if (response && response.length > 1) {
           for (let res of response) {
             const recipient_id = res["recipient_id"];
@@ -44,7 +44,6 @@ const invokeChatBotService = async function (senderId, msg, setChat, setBotTypin
             setBotTyping(false);
           }
         }
-
       }
     })
 }

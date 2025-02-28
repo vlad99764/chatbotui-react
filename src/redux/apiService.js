@@ -18,7 +18,7 @@ export const invokeChatBotService = async function handleClick(name, msg, { send
     .then(response => response.json())
     .then((response) => {
       if (response) {
-        // console.log("-response ------------------",response);
+        // console.log("-response ---------------",response);
         if (response && response.length > 1) {
           for (let res of response) {
             const recipient_id = res["recipient_id"];
@@ -40,7 +40,6 @@ export const invokeChatBotService = async function handleClick(name, msg, { send
             // window.alert("Please enter valid message");
           }
         }
-
         // scrollBottom();
       }
     })

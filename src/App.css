@@ -56,7 +56,6 @@ div p {
   justify-content: flex-end;
 }
 
-
 @media screen and (max-width: 1300px) {
   .modal {
     margin-left: 0px;
